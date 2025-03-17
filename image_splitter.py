@@ -20,6 +20,6 @@ def pdf_to_images(pdf_path, dpi=300, output_folder="page_jpegs"):
 
 
 if __name__ == "__main__":
-    pdf_path = "convert-me-to-markdown.pdf"
+    pdf_path = "convert-to-markdown.pdf"
     pdf_to_images(pdf_path)
     print("PDF conversion to JPEG images complete.")
